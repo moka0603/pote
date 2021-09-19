@@ -1,0 +1,1758 @@
+
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+img,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* remove list point mark */
+ul,
+ol {
+  list-style: none;
+}
+
+/* remove border & off descender */
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+/* remove descender */
+svg,
+input,
+select,
+textarea,
+label {
+  vertical-align: middle;
+}
+
+/* set collapse */
+table {
+  border-collapse: collapse;
+}
+
+/* break word for all elements */
+*,
+*::before,
+*::after {
+  word-break: break-all;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+address {
+  font-style: normal;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+html {
+ scroll-behavior:smooth;
+}
+
+
+li {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "æ¸¸ã‚´ã‚·ãƒƒã‚¯", YuGothic, "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", sans-serif;
+  font-weight: 400;
+
+}
+
+
+
+
+
+
+header {
+  width: 100%;
+  height: 604px;
+  position: relative;
+}
+
+.background {
+  background-image:url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png");
+  background-repeat: no-repeat;
+  background-position: right 0;
+  background-size:auto 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+
+
+nav {
+  height: 40px;
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
+nav {
+  position:relative;
+}
+
+.header-right {
+  position:absolute;
+  right:30px;
+}
+
+
+#input {
+  display: none;
+}
+
+#inside {
+  position: absolute;
+  z-index: 6;
+  display: none;
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 698px;
+  text-align: center;
+  padding-top: 34px;
+  position: fixed;
+  transform: translateX(3000px);
+ }
+ 
+ #input:checked ~ #inside{
+  transform: translateX(0px); 
+ }
+ 
+#inside li {
+  position: relative;
+  width: 100%;
+ }
+
+
+#inside a {
+  font-size:12px;
+  font-weight: 700;
+  
+  color: #f79314;
+  display:inline-block;
+  padding-bottom: 40px;
+}
+
+#inside span {
+  display: inline-block;
+  font-size:16px;
+  color: #ffffff;
+  font-family: "lato";
+  padding-bottom:8px;
+  letter-spacing: 2px
+  
+}
+.free-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#free {
+  background-color:#f79314;
+  padding: 20px 0;
+  width: 248px;
+  border-radius: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+
+
+.header-left img,n.header-right li {
+  display: inline-block;
+}
+
+
+.header-left img {
+  margin-left: 36px;
+  width: 185px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+.header-right ul {
+  width:808px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+}
+
+
+.header-right .list-item {
+  padding-top: 7px;
+  line-height: 10px;
+
+  
+}
+
+.header-right a {
+  font-size: 10px;
+  color: #222222;
+}
+
+
+.header-right span {
+  font-size:14px;
+  font-weight: bold;
+  font-family: "Lato, sans-serif";
+ }
+ 
+ 
+.header-right .counseling {
+  line-height: 40px;
+}
+
+.header-right .counseling a {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  background-color: #f79314;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.header-right li:hover {
+  opacity: 0.7;
+}
+.header-right li {
+  transition: 0.2s;
+}
+
+.header-left img:hover {
+opacity: 0.7;
+}
+.header-left a img {
+  transition: 0.2s;
+}
+
+
+
+.header-main {
+  height: 414px;
+  max-width: 1140px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 190px;
+  position: relative;
+  display: block;
+}
+
+.tittle-logo {
+  height:37px;
+  width:337px;
+}
+
+.honki {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header-main span {
+  color: #f79314;
+}
+
+
+.honki p:first-child {
+  margin-top: 30px;
+  padding-bottom: 5px;
+}
+
+.no1 {
+  height: 154px;
+  width: 154px;
+}
+
+
+.no1 {
+  position: absolute;
+  left: 400px;
+  top: 0;
+}
+
+.header-main a {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f79314;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 336px;
+  display: inline-block;
+  padding: 18px 0;
+  text-align: center;
+  margin-top: 34px;
+  
+}
+
+.header-main a:hover {
+opacity: 0.7;
+}
+.header-main a {
+  transition: 0.2s;
+}
+
+.header-main-bottom {
+  color: #333;
+  width: 50%;
+  font-size: 10px;
+  margin-top: 132px;
+  
+}
+
+
+/**********ポテパンキャンプ学割部分*************/
+
+
+
+.orange {
+  padding: 45px 0;
+  width: 100%;
+  background-color: #f79314; 
+}
+
+.container {
+  max-width: 1140px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+.pc {
+  width: 100%;
+
+}
+
+.sp { display: none !important; }
+
+.potepan {
+  color: #ffffff; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.potepan h1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+
+.potepan  h1 span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+.potepan p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.potepan a span {
+  font-size: 20px;
+  font-family: "Lato";
+  letter-spacing: 3px;
+  line-height:30px;
+}
+
+.potepan a {
+  font-size: 14px;
+  color: #f79314;
+  background-color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: bold;
+  width: 250px;
+  padding :5px 0;
+  display: block;
+}
+
+.potepan-bottom {
+  padding-top: 100px;
+}
+
+.potepan-top {
+  text-align: left;
+  width: 53%;
+}
+
+.potepan a:hover {
+opacity: 0.7;
+}
+.potepan a {
+  transition: 0.2s;
+}
+
+
+/*****************ポテパンキャンプの特徴*************/
+
+
+.contents-background {
+  width: 100%;
+  padding: 100px 0;
+  display: block;
+  background-color: #ffffff;
+}
+
+.contents-container {
+  max-width: 1140px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contents-tittle h1 {
+  font-size: 46px;
+  font-weight: bold;
+  padding-bottom: 14px;
+  letter-spacing: 0.1;
+}
+.contents-tittle h1 span {
+  font-size: 48px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+.contents-tittle p {
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+}
+.contents-tittle p span {
+  font-family: 'Lato', sans-serif;
+}
+
+.contents-tittle p::after {
+  content: "";
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  padding-top: 20px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.contents-tittle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+/*************エンジニア転職に強い***************/
+
+
+.strong {
+  background-color: #fcfaf4;
+  border-radius: 20px;
+  padding: 40px;
+ margin-top: 120px;
+ 
+}
+
+.strong-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:relative;
+}
+
+
+
+.no {
+  width: 100px;
+  height: 100px;
+  background-color: #fcfaf5;
+  border-radius: 50%;
+  color: #f79314;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 20px;
+  position: absolute;
+  top: -50px;
+  text-align: center;
+}
+
+.strong .no {
+ top: -90px;
+}
+
+
+.strong-tittle h1 {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+
+}
+
+.strong-tittle h2 {
+  padding: 30px 0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 2;
+  color: #333;
+  text-align: center;
+}
+
+.strong-tittle h2 span {
+  color: #f79314;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+
+/**************転職成功事例************/
+
+
+.job-change {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  
+}
+
+.job-change-tittle {
+  margin: 0 auto;
+  width: 200px;
+ 
+ }
+
+.job-change-tittle::after {
+  content:"";
+  border-bottom: solid 4px #f79314;
+  display: block;
+  margin-top: 10px;
+}
+
+.job-change-tittle h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.job-change-tittle img {
+  display: inline-block;
+  width: 34px;
+  height: auto;
+  margin-left: 10px;
+}
+
+
+.job-change li{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  position: relative;
+ 
+}
+
+.job-change a {
+  width:33.3%;
+}
+
+.job-change ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.job-change li img {
+  width: 60px;
+  height: 60px;
+}
+
+.job-change li p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 10px 16px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.job-change span {
+  font-weight: 700;
+}
+
+.job-change li p::after{
+  content: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
+  display: inline-block;
+  height:fit-content;
+  transform: scale(0.4);
+  margin:auto;
+  position: absolute;
+  top: 20%;
+  right: 5px;
+}
+
+.last-line {
+  padding-bottom: 0;
+}
+.list {
+  padding-right: 20px;
+  padding-bottom: 65px;
+}
+
+.job-change a:hover .list p {
+  color: #f79314;
+}
+
+.job-change a:hover .last-line p {
+  color: #f79314;
+}
+
+.job-change a {
+  transition: 0.1s;
+}
+
+
+
+/*********現場が認めるカリキュラム**************/
+
+.strength,.catch,.team {
+  background-color: #ffffff;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 30px 30px 40px 30px;
+  width: 100%;
+}
+
+
+.curriculum-tittle h1 {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.curriculum-tittle h2 {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  line-height: 2;
+  color: #333;
+  padding-top: 20px;
+}
+
+.curriculum {
+  background-color: #fcfaf4;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top:130px;
+  position: relative;
+}
+
+.curriculum-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.curriculum img {
+  border-radius: 4px;
+  width: 390px;
+  height: 241px;
+  
+}
+
+.strength-flex span,.catch-flex span,.team-flex span { 
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  line-height: 25px;
+  display: inline-block;
+}
+
+.small {
+  font-size: 16px;
+  line-height:26px;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 40px;
+  margin-left: 16px
+}
+
+.image p {
+  color: #a2a2a4;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0;
+  padding-top: 3px;
+}
+
+.after {
+  margin-left: 16px;
+}
+
+.strength-flex,.catch-flex ,.team-flex {
+  display:flex;
+}
+
+.detail {
+  display: flex;
+  justify-content: flex-end;
+  height:21px;
+ 
+}
+
+.strength {
+  position: relative;
+}
+
+.detail a {
+  color: #a2a2a4;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  
+}
+
+.detail a {
+  position:relative;
+}
+
+.detail a::after{
+ content:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
+  display: inline-block;
+  transform: scale(0.4);
+  margin-left: 10px;
+  position: absolute;
+  top: -4px;
+}
+
+.detail a:hover {
+  color: #f79314;
+}
+.detail a {
+transition: 0.2s;
+}
+
+
+/************レビュー***************/
+
+
+
+.review {
+  background-color: #fcfaf4;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top:130px;
+  position: relative;
+  width: 100%;
+}
+
+.review-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.review-tittle h1 {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.review-tittle h2 {
+  font-size: 16px;
+  padding-top: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  line-height: 2;
+  color: #333;
+}
+
+.box1,.box2,.box3 {
+  background-color: #ffffff;
+  margin-top: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31%;
+  padding: 20px;
+}
+
+.company-img {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.box1 .company-img ,.box3 .company-img {
+  padding: 0 10px;
+}
+
+  
+.review  {
+  display: inline-block;
+}
+
+.review-contents  {
+  width: 100%;
+  display: flex;
+  justify-content: space-between
+}
+
+.company-img, .engineer,.balloon {
+  width: 100%;
+}
+
+ .company {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.engineer p span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #f79314;
+  font-weight: 700;
+}
+
+.engineer p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #333333;
+  margin-left: 10px;
+  
+}
+
+.balloon p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #333333;
+  
+}
+
+.engineer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}  
+
+
+.balloon {
+  margin-top: 18px;
+  background-color:#f6f6f6;
+  padding:20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.balloon p::before{
+  content:"";
+  position: absolute;
+  top: -25px;
+  left: 29px;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #f6f6f6;
+}
+
+.box2 .balloon {
+  paddi
+}
+
+/**********企業*************/
+
+
+.enterprise {
+  background-color: #fcfaf4;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top:130px;
+  position: relative;
+  display: block;
+  
+}
+
+.enterprise-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.enterprise-tittle h1 {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.enterprise-tittle h2 {
+  font-size: 16px;
+  padding-top: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  line-height: 2;
+  color: #333;
+}
+
+.enterprise-box {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  padding:20px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap:wrap;
+ justify-content: space-between;
+}
+
+.last-img {
+  display: none;
+}
+
+.enterprise-box::after {
+  content: "";
+  width: 25%;
+}
+
+.enterprise-box img{
+  width: auto%;
+  height: auto;
+   max-width: 100%;
+  max-height: 100%;
+}
+
+.img-list,.last-img {
+ width: 25%;
+  
+ 
+}
+
+
+
+/****************サポート*****************/
+
+
+.support {
+  background-color: #fcfaf4;
+  border-radius: 20px;
+  padding: 40px;
+  margin-top:130px;
+  position: relative;
+  display: block;
+  
+}
+
+.support-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.support-tittle h1 {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.support-tittle h2 {
+  font-size: 16px;
+  padding-top: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  line-height: 2;
+  color: #333;
+}
+
+.support-box {
+ 
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  padding:20px;
+  margin-top: 46px;
+}
+
+.support-box li {
+  list-style: disc;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #222222;
+  
+}
+.support-box ul {
+  margin-top: 22px;
+  margin-left: 40px;
+}
+
+.support-box p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #333333;
+  padding-top: 16px;
+  padding-left: 12px;
+}
+
+
+
+/************選べるコース***************/
+
+.course {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 100px  0;
+}
+
+.course .container {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+  background-size: 281px 275px;
+  background-repeat: no-repeat;
+  background-position:top right;
+}
+
+.course-tittle br {
+  display: none;
+}
+
+
+.course-tittle h1 {
+  font-size: 46px;
+  font-weight: bold;
+  padding-bottom: 34px;
+  color: #222222;
+ 
+}
+.course-tittle h1 span {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+.course-tittle p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333333;
+ 
+}
+
+
+.course-tittle p span {
+  font-family: 'Lato', sans-serif;
+}
+
+.course-tittle p::after {
+  content: "";
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  padding-top: 20px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.course-tittle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.course-box {
+  background-color: #ffffff;
+  width: 100%;
+  display: block;
+  margin-top: 90px;
+}
+
+.course-box a {
+  display: block;
+  padding: 45px;
+  margin-bottom: 60px;
+}
+
+.course-box a {
+  width: 100%;
+  display: flex;
+}
+
+.orange-box {
+  border: 3px solid;
+  border-image: linear-gradient(to right, #f79212 0%, #f7680d 100%);
+  border-image-slice: 1;
+  width: 28%;
+  text-align: center;
+  padding:25px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange-box h1 {
+  color:#222222;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.orange-box p {
+  color: #f77f14;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+}
+
+.box-right {
+  padding-left: 30px;
+  position: relative;
+}
+
+.box-right h1 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #f77f14;
+}
+
+.box-right h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #333333;
+  margin: 15px 0;
+}
+
+.box-right h2 span {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color:#272727;
+  border-radius: 30px;
+  padding: 6px 0;
+  width: 55px;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.box-right p {
+  font-size:14px; 
+  line-height: 21px;
+  font-weight: 700;
+  color: #a2a2a4;
+  text-align: right;
+}
+
+.box-right p {
+  position:relative;
+}
+
+.box-right p::after{
+ content:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/common/chevron-right.jpg);
+  display: inline-block;
+  transform: scale(0.4);
+  margin-left: 10px;
+  position: absolute;
+  top: -4px;
+}
+
+.course-box a:hover .box-right p{
+  color:#f79212;
+}
+
+.course-box a {
+  transition: 0.2s;
+}
+
+
+.course-btn a {
+  display: block;
+ 
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 300px;
+  padding: 5px 0;
+  border-radius: 50px;
+  background-color: #f79314;
+  text-align: center;
+}
+
+.course-btn a span {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+
+.course-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.course-btn a:hover {
+  opacity: 0.7;
+}
+.course-btn a {
+  transition: 0.2s;
+}
+
+
+/*************サービスの思い*******************/
+
+.service {
+  width: 100%;
+  background-color: #fcfaf4;
+  padding: 102px 0 98px 0;
+}
+
+
+.service-tittle h1 {
+  font-size: 46px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  color: #222222;
+}
+
+.service-tittle p {
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  color: #333333;
+}
+
+.service-tittle p::after {
+  content: "";
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  padding-top: 20px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.service-tittle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.message {
+  width: 100%;
+  margin-top: 90px;
+}
+
+.message h1 {
+  font-size: 50px;
+  line-height: 50px;
+  color: #ff802c;
+  font-weight: 900;
+  font-family: "Lato, sans-serif";
+}
+
+.message img {
+  position: relative;
+  z-index: 6;
+  margin-left: -80px;
+ 
+}
+
+.p-list {
+  padding: 40px 150px 40px 40px;
+  background-color: #ffffff;
+}
+.p-list p {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.p1 {
+  padding-bottom: 34px;
+}
+.p2 {
+  padding-bottom: 32px;
+}
+
+.message {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+.p-list {
+  position: relative;
+  z-index:1;
+}
+
+.message h1 {
+  position: absolute;
+  z-index:2;
+  top: -25px;
+  left: 20px;
+}
+
+.img-h2 {
+  position: relative;
+  text-shadow: 1px 1px 10px #808080;
+  
+}
+
+.message h2 {
+  position: absolute;
+  z-index: 8;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  top: 20px;
+  left: -50px;
+}
+
+.message span {
+  font-size: 24px;
+  line-height: 36px;
+}
+  
+
+/***************受講者の声*********************/
+
+.voice {
+  background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+
+.voice-tittle h1 {
+  font-size: 46px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #222222;
+}
+
+.voice-tittle p {
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  color: #333333;
+}
+
+.voice-tittle p::after {
+  content: "";
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  padding-top: 20px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.voice-tittle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.voice-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding-bottom: 60px;
+  
+}
+
+.voice-linebox {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: calc(100% / 3);
+
+  
+}
+
+.img-box {
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+  background: #000;
+  
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  
+  
+}
+.img-box p {
+  position: absolute;
+}
+
+.orange-course {
+  position:absolute;
+  z-index:2;
+  bottom: 54px;
+  left: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #f79314;
+}
+
+.name {
+  position:absolute;
+  z-index:2;
+  bottom: 14px;
+  left: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 5px;
+  padding-top: 4px;
+  width: 100%;
+  
+}
+
+.span1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.span2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+.name {
+  position: relative;
+}
+
+.name::before {
+  content:"";
+  display:block;
+  width:90%;
+  text-align: center;
+  height:1px;
+  background-color:#fff;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #333;
+  padding-top: 20px;
+}
+
+.voice-linebox:hover .text {
+  color: #f79314;
+}
+.voice-linebox {
+  transition: 0.2s;
+}
+  
+  
+ .voice-linebox:hover .img-box img {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.img-box img{
+  transition-duration: 0.3s;
+}
+
+.img-box br {
+  display: none;
+}
+
+.img-box::before {
+  content:"";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background: linear-gradient(to bottom, transparent 145px, rgba(0,0,0,1));
+}
+
+
+
+.voice-btn a {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 300px;
+  padding: 5px 0;
+  border-radius: 50px;
+  background-color: #f79314;
+  text-align: center;
+}
+
+.voice-btn a span {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+
+.voice-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.voice-btn a:hover {
+  opacity: 0.7;
+}
+.voice-btn a {
+  transition: 0.2s;
+}
+
+
+/***************フッター****************/
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #f79314;
+}
+
+
+
+.footer-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-box {
+  width:42%;
+}
+.center-box {
+  width: 27%;
+}
+.right-box {
+  width: 27%;
+}
+
+
+
+.left-box img {
+  width: 280px;
+  height: 30px;
+}
+
+.left-box h1,.left-box p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
+.left-box h1 {
+  padding-top: 24px;
+}
+.left-box p {
+  padding: 10px 0 35px 0;
+}
+
+.sns-logo img {
+  width:60px;
+  height:60px;
+}
+.sns-logo a {
+  width: 43%;
+  display: block;
+}
+.sns-logo {
+  width: 142px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.center-box p,.right-box p {
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.center-box span,.right-box span {
+  font-weight: 700;
+  padding-right: 20px;
+}
+
+
+.right-box img {
+  width: 122px;
+  height: 70px;
+  margin-top: 52px;
+  margin-left: 38px;
+}
+
+
+.last {
+  padding-top: 86px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+
+.left-potepan:hover {
+  opacity: 0.7;
+}
+.left-potepan {
+  transition: 0.2s;
+}
+
+.sns-logo a:hover {
+   opacity: 0.7;
+}
+.sns-logo a {
+  transition: 0.2s;
+}
+
+footer .container {
+  position: relative;
+}
+
+.pagetop{
+  
+  position: absolute;
+  right: 30px;
+  top: -100px;
+}
+.pagetop a{
+  display: block;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 50%;
+  line-height: 50px;
+  box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
+}
+.pagetop a i{
+  font-size: 15px;
+  color:#f79215;
+  line-height: 50px;
+}
